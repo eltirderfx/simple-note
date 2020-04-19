@@ -28,7 +28,7 @@ class _NotePageState extends State<NotePage> {
         title: Text(
           title,
           style: TextStyle(
-            
+            fontSize: 25
           )
         )
       )
