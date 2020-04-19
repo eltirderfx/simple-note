@@ -26,11 +26,12 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         backgroundColor: Colors.orange[400],
-        elevation: 2,
+        elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.edit),
         backgroundColor: Colors.orange,
+        elevation: 0,
         onPressed: () {
           Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => new NotePage(null, true) ));
         },
